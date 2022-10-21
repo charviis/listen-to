@@ -8,12 +8,14 @@
     <meta name="author" content="Marek Charvát">
     <link rel="shortcut icon" href="imgs/favicon.ico">
     <link href="css/style.css" rel="stylesheet">
+    <script src="src\js\dropdown.js"></script>
     <title>Listen To</title>
+
 </head>
 <body>
-    <script src="js/dropdown.js"></script>
+    
     <h1>
-        Listen To, here to help you find your favorite songs!
+        ListenTo, here to help you find your next favorite song!
     </h1>
     <h2>
         <div class="img">
@@ -22,42 +24,33 @@
         </a>
     </div>
 
-    <div class="container">
-        <h1 class="title">Dropdown Menu</h1>
-        <ul>
-          <li class="dropdown">
-            <a href="#" data-toggle="dropdown">First Menu <i class="icon-arrow"></i></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
+    <div class="select-menu active">
+        <div class="select-btn">
+          <span class="sBtn-text">Select your option</span>
+          <i class="bx bx-chevron-down"></i>
+        </div>
+    <div class="select-list">
+        <ul class="options">
+          <li class="option">
+            <i class="bx bxl-instagram-alt" style="color: #E1306C;"></i>
+            <a href="url">Bored</a>
           </li>
-          <li class="dropdown">
-            <a href="#" data-toggle="dropdown">Second Menu <i class="icon-arrow"></i></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
+          <li class="option">
+            <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
+            <a href="url">Sleepy</a>
           </li>
-          <li class="dropdown">
-            <a href="#" data-toggle="dropdown">Third Menu <i class="icon-arrow"></i></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
+          <li class="option">
+            <i class="bx bxl-facebook-circle" style="color: #4267B2;"></i>
+            <a href="url">Working</a>
+          </li>
+          <li class="option">
+            <i class="bx bxl-twitter" style="color: #1DA1F2;"></i>
+            <a href="url">Dont know</a>
+          </div>
           </li>
         </ul>
-        <p class="text-center">
-          See this same menu only with CSS3: <a href="https://codepen.io/pedronauck/pen/jaluz" target="_blank">https://codepen.io/pedronauck/pen/jaluz</a>
-        </p>
       </div>
     
-    <script src="js/script.js"></script>
+    
 </body>
 </html>
