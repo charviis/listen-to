@@ -1,16 +1,9 @@
-<<<<<<< HEAD
 body {
   background-color : grey;¨
   font-family : "Open Sans", sans-serif;
   font-size : 16px;
   line-height : 1.5;
 
-=======
-
-
-html{
-    background-color: #f2f2f2;
->>>>>>> dead46c28027158b104a4d35f9db75579dac6561
 }
 
 h1 
@@ -26,7 +19,6 @@ h1
     padding: 10px;
     border-radius: 15px;
 
->>>>>>> dead46c28027158b104a4d35f9db75579dac6561
 }
 
 h2
@@ -77,10 +69,6 @@ span::after {
 
 .slide li {padding : 30px;}
 
-<<<<<<< HEAD
 #touch {position: absolute; opacity: 0; height: 0px;}    
 
 #touch:checked + .slide {height: 300px;} 
-=======
-.show {display: block;}
->>>>>>> dead46c28027158b104a4d35f9db75579dac6561
