@@ -1,9 +1,10 @@
 body {
-  background-color : grey;¨
-  font-family : "Open Sans", sans-serif;
-  font-size : 16px;
-  line-height : 1.5;
-
+    background-color: grey;
+    color: #000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
 }
 
 h1 
@@ -13,8 +14,8 @@ h1
     color : #333;
     margin-bottom : 0.5em;
     text-align: center;
-<<<<<<< HEAD
-=======
+
+
     margin: 0;
     padding: 10px;
     border-radius: 15px;
