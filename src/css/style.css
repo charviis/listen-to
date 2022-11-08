@@ -26,33 +26,17 @@ h2 {
   margin: 1.5rem 0;
 }
 
-.select-menu {
-  max-width: 330px;
-  margin: 50px auto;
-}
-.select-menu .select-btn {
-  
-  height: 55px;
-  background: #fff;
-  padding: 20px;
-  font-size: 18px;
-  font-weight: 400;
-  border-radius: 8px;
-  align-items: center;
-  cursor: pointer;
-  justify-content: space-between;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
 .select-menu .options {
   text-align: center;
-  position: absolute;
+  align-items: center;
+  position: fixed;
   width: 330px;
   overflow-y: auto;
   max-height: 295px;
   padding: 10px;
   margin-top: 10px;
   border-radius: 8px;
-  background: #fff;
+  background: rgb(34, 28, 28);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   animation-name: fadeInDown;
   -webkit-animation-name: fadeInDown;
@@ -70,6 +54,7 @@ h2 {
   align-items: center;
   background: #fff;
   text-align: center;
+  align-items: center;
 }
 .select-menu .options .option:hover {
   background: #f2f2f2;
